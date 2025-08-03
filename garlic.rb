@@ -4,25 +4,25 @@ class Garlic < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/neocanable/garlic/releases/download/v1.3-release/garlic-macos-x64"
-      sha256 "sha256:41a1fa9f56832235dc5c15d6fc10bda543d70af2b9cde98a96ab3501c0223d09"
+      url "https://github.com/neocanable/garlic/releases/download/v1.4-release/garlic-macos-x64"
+      sha256 "491765704e01c69ceedbce3aedd89f2b481dc03b2cc51c48aadf0124a88e418e"
     end
 
     on_arm do
-      url "https://github.com/neocanable/garlic/releases/download/v1.3-release/garlic-macos-aarch64"
-      sha256 "42c496269b96dc85ed472730044fb50ce6dea3faded4fb84c68b0ac753791b08"
+      url "https://github.com/neocanable/garlic/releases/download/v1.4-release/garlic-macos-aarch64"
+      sha256 "64c54186dfef2e6d37683468814a70a4dc6713d31366394c2a66e314e688b91f"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/neocanable/garlic/releases/download/v1.3-release/garlic-linux-x64"
-      sha256 "43c3d01a621357653bd82bf57a2c1ea5b23cdd70afdcce323b81591f1d7c045d"
+      url "https://github.com/neocanable/garlic/releases/download/v1.4-release/garlic-linux-x64"
+      sha256 "b3e5c62b6b811f4d0ab4f4dc151fed0a10ae613a8185b35297174b2d366244de"
     end
 
     on_arm do
-      url "https://github.com/neocanable/garlic/releases/download/v1.3-release/garlic-aarch64-linux"
-      sha256 "2d89749bc58f7ea31484b322bb8fb701b242fc53b877d359a07df095ee6ed1f8"
+      url "https://github.com/neocanable/garlic/releases/download/v1.4-release/garlic-aarch64-linux"
+      sha256 "7bbbb4a032d476c04d61de57043c66ec0e526959824d0ff65e3d39d4f2208025"
     end
   end
 
